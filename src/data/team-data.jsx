@@ -1,0 +1,77 @@
+export const teamData = [
+  { id:"01",
+    img: "/img/01.jpg",
+    name: "Dev Sirius",
+    position: "Co-Founder CTO",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"02",
+    img: "/img/02.jpg",
+    name: "Golden Piggy",
+    position: "Co-Founder",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"03",
+    img: "/img/03.jpg",
+    name: "Aakil Wang",
+    position: "FullStack Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"04",
+    img: "/img/04.jpg",
+    name: "Jenna Kardi",
+    position: "Designer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"05",
+    img: "/img/05.jpg",
+    name: "Bright Gene",
+    position: "Backend Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"06",
+    img: "/img/06.jpg",
+    name: "Smart Dev",
+    position: "UI/UX Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"07",
+    img: "/img/07.jpg",
+    name: "Rudolf",
+    position: "Mobile Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  {
+    id:"08",
+    img: "/img/08.jpg",
+    name: "Golden Season",
+    position: "Angular Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+  { 
+    id:"09",
+    img: "/img/11.jpg",
+    name: "Jamal Hamilton",
+    position: "FullStack Developer",
+    place:"Los Angeles, California",
+    detail:"An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  },
+
+  
+];
+
+export default teamData;
