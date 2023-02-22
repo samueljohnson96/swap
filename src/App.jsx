@@ -8,7 +8,7 @@ import 'tw-elements';
 function App() {
   return (
     // <div className="bg-background bg-repeat-y">
-    <div style={{backgroundImage: "url(img/image/background.png)"}}>  
+    <div style={{backgroundImage: "url(img/image/background.png)", backgroundSize:"cover"}}>  
       <div className="w-full absolute z-50">
         <Topbar/>
       </div>
