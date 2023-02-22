@@ -1,10 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import loop from "../../public/img/image/loop.png"
 import GooglePlay from "../../public/img/image/GooglePlay.svg" 
 import appstoreR from "../../public/img/image/appstoreR.svg" 
 import thurstpilot from "../../public/img/image/thurstpilot.svg" 
-import gradient from "../../public/img/image/gradient.png"
 import video from "../../public/img/image/video.png"
 import arrow from "../../public/img/image/arrow.svg"
 import btc from "../../public/img/coin/btc.svg"
@@ -16,7 +14,7 @@ export function How() {
   const [previewindex, setPreviewindex] = useState(0);
  console.log(num);
   return (
-    <div className="bg-black w-full px-4 flex flex-col justify-center items-center  pt-[13%]">
+    <div className=" bg-transparent bg-repeat-y w-full px-4 flex flex-col justify-center items-center  pt-[13%]">
       <div className=" relative flex justify-center items-center flex-col w-[80%] py-10 gap-10">
         <section className="items-center justify-center grid grid-cols-1 md:grid-cols-5 ">
           <p className="text-3xl font-bold text-white mb-8 md:col-span-2 md:text-6xl">How it works</p>

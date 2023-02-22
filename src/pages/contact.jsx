@@ -1,14 +1,9 @@
 import React from "react";
-import loop from "../../public/img/image/loop.png"
-import gradient from "../../public/img/image/gradient.png"
-import searchIcon from "../../public/img/image/searchIcon.svg"
-import dropdown_vector from "../../public/img/image/dropdown-vector.svg"
-import { FAQ_question} from "@/data/faq-questions";
 import { Linklist } from "@/data/linklist";
 
 export function Contact() {
   return (
-    <div className="bg-black w-full pt-[13%] flex flex-col justify-center items-center py-20">
+    <div className=" bg-transparent w-full pt-[13%] flex flex-col justify-center items-center py-20">
       <div className="flex flex-col justify-center items-center gap-5 my-10 w-[80%]">
         <p className="text-4xl md:text-6xl text-white font-base">Write a Message to Swap</p>
         <p className="text-lg md:text-xl text-white font-base">We’d love to hear from you and answer any questions</p>

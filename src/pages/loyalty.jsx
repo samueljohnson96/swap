@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import loop from "../../public/img/image/loop.png"
-import gradient from "../../public/img/image/gradient.png"
 import hompage1 from "../../public/img/image/homepage1.png"
 import coins from "../../public/img/image/coins.png"
 import arrow from "../../public/img/image/arrow.svg"
@@ -12,7 +9,7 @@ import { Participate } from "@/widgets/cards/participate-card";
 import { Participate_data } from "@/data/participate-data";
 export function Loyalty() {
   return (
-    <div className="bg-black w-full pt-[13%] flex flex-col justify-center items-center">
+    <div className=" bg-transparent w-full pt-[13%] flex flex-col justify-center items-center">
       <div className=" relative flex justify-center items-center flex-col w-[80%] py-10 gap-10 z-50">
         <section className="grid place-content-center place-items-center grid-cols-1 md:grid-cols-2   my-10 gap-5">
           <div className=" flex flex-col gap-5">

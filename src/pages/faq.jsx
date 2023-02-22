@@ -1,12 +1,10 @@
 import React from "react";
-import loop from "../../public/img/image/loop.png"
-import gradient from "../../public/img/image/gradient.png"
 import searchIcon from "../../public/img/image/searchIcon.svg"
 import dropdown_vector from "../../public/img/image/dropdown-vector.svg"
 import { FAQ_question} from "@/data/faq-questions";
 export function FAQ() {
   return (
-    <div className="bg-black w-full pt-[13%] flex justify-center items-center">
+    <div className=" bg-transparent w-full pt-[13%] flex justify-center items-center">
       <div className=" relative flex justify-center items-center flex-col w-[85%] gap-10 z-50 ">
         <div className="w-full grid grid-cols-1 md:grid-cols-3">
           <div className="z-50 left-0 md:col-span-1 gap-10 py-10 md:py-0 ">

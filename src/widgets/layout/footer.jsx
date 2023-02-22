@@ -7,12 +7,11 @@ import appstore from "../../../public/img/image/appstore.svg"
 import google from "../../../public/img/image/google.svg"
 import { Linklist } from "@/data/linklist";
 import app from "../../../public/img/image/app.svg"
-import gradient from "../../../public/img/image/gradient.png"
 
 
 export function Footer() {
   return (
-    <section className=" bg-[black] w-full py-5 flex flex-col items-center justify-center relative ">
+    <section className="bg-transparent w-full py-5 flex flex-col items-center justify-center relative ">
       <div className="gap-5 py-10 grid grid-cols-1 md:grid-cols-7">
         <div className="flex min-w-[22rem] justify-center items-center col-span-3 md:justify-end">
           <p className="text-white text-xl font-medium">See our</p>

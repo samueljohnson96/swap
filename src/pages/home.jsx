@@ -5,8 +5,6 @@ import { exchangeItem, buyItem } from "@/data/senditems";
 import Exchange from "@/widgets/cards/Crypto-Exchange";
 import coin from "../../public/img/image/coin.png"
 import arrow from "../../public/img/image/arrow.svg"
-import loop from "../../public/img/image/loop.png"
-import gradient from "../../public/img/image/gradient.png"
 const tabsData = [      
   {
     list:exchangeItem
@@ -20,7 +18,7 @@ export function Home() {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
  
   return (
-    <div className="bg-black w-full pt-[13%]">
+    <div className=" bg-transparent w-full pt-[13%] bg-background bg-repeat-y">
       <div className="relative flex justify-center items-center flex-col w-full py-10">
         <section className="flex flex-col items-center gap-5">
           <p className="text-3xl font-medium text-white md:text-6xl">Crypto Exchange</p>
@@ -44,7 +42,7 @@ export function Home() {
             <div className="flex flex-col gap-5 z-20">
               <p className="text-white text-3xl font-bold">1,000 SWAP to all registered customers!</p> 
               <p className="text-white text-xl font-medium">Create an account, finish the exchange and receive a pleasant Bonus. <br></br> Collect SWAP to purchase a BTC cashback subscription.</p> 
-              <Link to = "/home">
+              <Link to = "/signup">
                 <div className="flex gap-2 items-center hover:brightness-150 active:brightness-100">
                   <p className="text-[#0F75FC] text-xl font-medium">sign up</p> 
                   <img src={arrow} alt="..."/>

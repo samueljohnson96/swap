@@ -7,7 +7,7 @@ import routes from "@/routes";
 import 'tw-elements'; 
 function App() {
   return (
-    <>
+    <div className="bg-background bg-repeat-y">
       <div className="w-full absolute z-50">
         <Topbar/>
       </div>
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 }
 

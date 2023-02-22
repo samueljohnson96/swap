@@ -18,8 +18,8 @@ module.exports = withMT({
     },
     extend: {
       backgroundImage: {
-        'homebg': "url('img/image/homebg.png')",
-        'btn02': "url('/img/image/btn02.svg')",
+        'background': "url('img/image/background.png')",
+        'loop': "url('/img/image/loop.png')",
         'chatbg': "url('/img/image/chatbg.svg')",
         'btnbg': "url('/img/image/bg-gradient.jpg')",
       },
