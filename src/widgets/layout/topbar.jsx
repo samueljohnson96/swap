@@ -79,8 +79,8 @@ export default function Topbar() {
               <Button variant="text"><img src={menuvector} alt="..."/></Button>
             </MenuHandler>
             <MenuList>
-              <MenuItem>SimpleSwap Affiliate Program<br></br>Become our partner and start to make profit</MenuItem>
-              <MenuItem>SimpleSwap Blog<br></br>News and key concepts of the Crypto World</MenuItem>
+              <MenuItem>Swap Affiliate Program<br></br>Become our partner and start to make profit</MenuItem>
+              <MenuItem>Swap Blog<br></br>News and key concepts of the Crypto World</MenuItem>
             </MenuList>
           </Menu>
         </div>

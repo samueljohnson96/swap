@@ -2,7 +2,7 @@ import step01 from "../../public/img/image/step01.png"
 export const Step_info=[
     {
         title:"Choose the crypto exchange pair",
-        text:"Let’s assume you have Bitcoin and you want to have Ethereum. Here is how the BTC to ETH exchange process takes place on SimpleSwap.",
+        text:"Let’s assume you have Bitcoin and you want to have Ethereum. Here is how the BTC to ETH exchange process takes place on Swap.",
         img:step01
     },
     {

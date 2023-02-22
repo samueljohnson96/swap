@@ -70,7 +70,7 @@ export function How() {
                 <img src={eth} alt="..."/>
                 <p className="text-white text-2xl">ETH</p>
               </div>
-              <p className="text-white text-xl font-thin font-['Outfit']  mb-3"> You are welcome to learn more about every step of the crypto exchange on SimpleSwap. Find all the necessary instructions in this video.</p>
+              <p className="text-white text-xl font-thin font-['Outfit']  mb-3"> You are welcome to learn more about every step of the crypto exchange on Swap. Find all the necessary instructions in this video.</p>
             </div>
           </div>
         </section>

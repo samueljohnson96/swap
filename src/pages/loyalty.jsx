@@ -18,8 +18,8 @@ export function Loyalty() {
       <div className=" relative flex justify-center items-center flex-col w-[80%] py-10 gap-10 z-50">
         <section className="grid place-content-center place-items-center grid-cols-1 md:grid-cols-2   my-10 gap-5">
           <div className=" flex flex-col gap-5">
-            <p className=" text-white text-3xl md:text-6xl font-semibold leading-tight">SimpleSwap<br></br>Loyalty Program</p>
-            <p className=" text-white text-base font-semibold">We are glad to offer our customers the clearest and easiest <br></br>way to receive extra crypto making exchanges on<br/> SimpleSwap.</p>
+            <p className=" text-white text-3xl md:text-6xl font-semibold leading-tight">Swap<br></br>Loyalty Program</p>
+            <p className=" text-white text-base font-semibold">We are glad to offer our customers the clearest and easiest <br></br>way to receive extra crypto making exchanges on<br/> Swap.</p>
             <button className="w-32 py-1.5 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
               <p className="text-white text-lg font-medium ">Sign Up</p>
             </button>
@@ -82,7 +82,7 @@ export function Loyalty() {
           <div className="gap-5 z-20 py-5 px-3 grid grid-cols-1 xl:grid-cols-2">
             <p className="text-white text-3xl md:text-6xl font-semibold leading-normal">What is SWAP?</p>
             <div className="flex flex-col gap-5 z-20">
-              <p className="text-white text-xl font-medium">SimpleSwap Coin (SWAP) is a utility token that serves as an internal currency for the SimpleSwap Loyalty Program. SWAP holders can get such benefits as BTC cashback subscription and unique branded items for crypto fans. More than 60,000 customers already enjoy SWAP advantages!</p> 
+              <p className="text-white text-xl font-medium">Swap Coin (SWAP) is a utility token that serves as an internal currency for the Swap Loyalty Program. SWAP holders can get such benefits as BTC cashback subscription and unique branded items for crypto fans. More than 60,000 customers already enjoy SWAP advantages!</p> 
               <Link to = "/home">
                 <div className="flex gap-2 items-center hover:brightness-150 active:brightness-100">
                   <p className="text-[#0F75FC] text-xl font-medium">Learn more</p> 

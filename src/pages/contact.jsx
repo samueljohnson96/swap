@@ -12,7 +12,7 @@ export function Contact() {
         <img className="absolute left-0 top-0 opacity-20 w-1/2 z-0" src={loop} alt="..."/>
         <img className="absolute top-20 w-1/2 right-0 opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
         <div className="flex flex-col justify-center items-center gap-5 my-10 w-[80%]">
-          <p className="text-4xl md:text-6xl text-white font-base">Write a Message to SimpleSwap</p>
+          <p className="text-4xl md:text-6xl text-white font-base">Write a Message to Swap</p>
           <p className="text-lg md:text-xl text-white font-base">We’d love to hear from you and answer any questions</p>
         </div>
         <section className="z-50 w-[90%] md:w-[80%] gap-5 bg-[#1C1C1C] bg-opacity-60 py-[4rem] px-[3rem] rounded-3xl grid grid-cols-1 md:grid-cols-2 place-content-center place-items-center">
@@ -22,15 +22,15 @@ export function Contact() {
                 <p className="text-3xl text-white font-normal"> Contacts </p>
                 <div>
                   <p className="text-base text-white font-thin"> For service issues: </p>
-                  <p className="text-xs text-[#ACB4FF] font-thin"> support@simpleswap.io </p>
+                  <p className="text-xs text-[#ACB4FF] font-thin"> support@Swap.io </p>
                 </div>
                 <div>
                   <p className="text-base text-white font-thin"> For marketing requests: </p>
-                  <p className="text-xs text-[#ACB4FF] font-thin"> marketing@simpleswap.io </p>
+                  <p className="text-xs text-[#ACB4FF] font-thin"> marketing@Swap.io </p>
                 </div>
                 <div>
                   <p className="text-base text-white font-thin"> For general questions: </p>
-                  <p className="text-xs text-[#ACB4FF] font-thin"> partnerships@simpleswap.io </p>
+                  <p className="text-xs text-[#ACB4FF] font-thin"> partnerships@Swap.io </p>
                 </div>
               </div>
               <div className="flex gap-4 py-5 z-50">
