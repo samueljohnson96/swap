@@ -12,8 +12,7 @@ import gradient from "../../../public/img/image/gradient.png"
 
 export function Footer() {
   return (
-    <section className="bg-black w-full py-5 flex flex-col items-center justify-center relative">
-      <img className="absolute top-[5.5rem] left-0 rotate-180 h-[80%] opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
+    <section className=" bg-[black] w-full py-5 flex flex-col items-center justify-center relative ">
       <div className="gap-5 py-10 grid grid-cols-1 md:grid-cols-7">
         <div className="flex min-w-[22rem] justify-center items-center col-span-3 md:justify-end">
           <p className="text-white text-xl font-medium">See our</p>

@@ -21,8 +21,6 @@ export function Home() {
  
   return (
     <div className="bg-black w-full pt-[13%]">
-      <img className="absolute top-0 left-0 w-1/2 z-0" src={loop} alt="..."/>
-      <img className="absolute top-20 right-0 w-1/2 opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
       <div className="relative flex justify-center items-center flex-col w-full py-10">
         <section className="flex flex-col items-center gap-5">
           <p className="text-3xl font-medium text-white md:text-6xl">Crypto Exchange</p>
@@ -40,7 +38,7 @@ export function Home() {
               <Exchange items={tabsData[activeTabIndex].list}/>
             </div>
         </section>
-        <section  className=" relative w-full flex justify-center items-center py-10 bg-homebg bg-opacity-30">
+        <section  className=" relative w-full flex justify-center items-center py-10 ">
           <div className="inset-0 flex justify-center items-center gap-5 z-20 py-5 px-3">
             <img className="z-50 h-[calc(20vw_+_20px)] lg-max:hidden " src={coin} alt="..."/>  
             <div className="flex flex-col gap-5 z-20">

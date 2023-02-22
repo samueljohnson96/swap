@@ -17,8 +17,6 @@ export function How() {
  console.log(num);
   return (
     <div className="bg-black w-full px-4 flex flex-col justify-center items-center  pt-[13%]">
-      <img className="absolute top-0 left-0 w-1/2 z-0" src={loop} alt="..."/>
-      <img className="absolute top-20 right-0 w-1/2 opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
       <div className=" relative flex justify-center items-center flex-col w-[80%] py-10 gap-10">
         <section className="items-center justify-center grid grid-cols-1 md:grid-cols-5 ">
           <p className="text-3xl font-bold text-white mb-8 md:col-span-2 md:text-6xl">How it works</p>

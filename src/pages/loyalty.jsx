@@ -13,8 +13,6 @@ import { Participate_data } from "@/data/participate-data";
 export function Loyalty() {
   return (
     <div className="bg-black w-full pt-[13%] flex flex-col justify-center items-center">
-        <img className="absolute top-0 w-1/2 left-0 z-0" src={loop} alt="..."/>
-        <img className="absolute top-20 w-1/2 right-0 opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
       <div className=" relative flex justify-center items-center flex-col w-[80%] py-10 gap-10 z-50">
         <section className="grid place-content-center place-items-center grid-cols-1 md:grid-cols-2   my-10 gap-5">
           <div className=" flex flex-col gap-5">

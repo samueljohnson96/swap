@@ -7,8 +7,6 @@ import { FAQ_question} from "@/data/faq-questions";
 export function FAQ() {
   return (
     <div className="bg-black w-full pt-[13%] flex justify-center items-center">
-        <img className="absolute left-0 top-0 w-1/2 z-0" src={loop} alt="..."/>
-        <img className="absolute top-20 w-1/2 right-0 opacity-20 brightness-150 z-0" src={gradient} alt="..."/>
       <div className=" relative flex justify-center items-center flex-col w-[85%] gap-10 z-50 ">
         <div className="w-full grid grid-cols-1 md:grid-cols-3">
           <div className="z-50 left-0 md:col-span-1 gap-10 py-10 md:py-0 ">

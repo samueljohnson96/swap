@@ -68,7 +68,7 @@ export default function Topbar() {
   );
 
   return (
-    <div className="w-full bg-black mx-auto  py-2 lg:px-8 lg:py-4 z-50">
+    <div className="w-full bg-black mx-auto  py-2 lg:px-8 lg:py-4 z-50 border-b-2 border-white border-opacity-10">
       <div className="mx-auto flex items-center justify-between text-white">
         <div className="flex gap-1 md:gap-3">
           <Link to = "/home">
