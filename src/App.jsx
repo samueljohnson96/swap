@@ -1,8 +1,10 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Topbar from "./widgets/layout/topbar";
 import { Footer } from "./widgets/layout";
+import { LogIn } from "./pages";
+import { SignUp } from "./pages";
 import routes from "@/routes";
-import 'tw-elements';
+import 'tw-elements'; 
 function App() {
   return (
     <>
@@ -15,11 +17,12 @@ function App() {
             ({ path, element }, key) =>
               element && <Route key={key} exact path={path} element={element} />
           )}
+          <Route exact path="/login" element={<LogIn/>} />
+          <Route exact path="/signup" element={<SignUp/>} />
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
       </div>
       <Footer/>
-
     </>
   );
 }

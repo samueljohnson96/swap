@@ -2,7 +2,7 @@ import React from "react";
 import { subject } from "@/data/footerlist";
 import star from "../../../public/img/image/star.svg"
 import btn02 from "../../../public/img/image/btn02.svg"
-import doublecoin from "../../../public/img/image/doublecoin.svg"
+import bb3d from "../../../public/img/image/bb3d.png"
 import appstore from "../../../public/img/image/appstore.svg"
 import google from "../../../public/img/image/google.svg"
 import { Linklist } from "@/data/linklist";
@@ -30,13 +30,13 @@ export function Footer() {
           <div className="h-6 w-1 bg-white mx-4 lg-max:hidden"/>
         </div>
         <button className=" relative w-full flex justify-center items-center hover:brightness-125 active:brightness-100 min-w-[13rem]">
-          <p className=" absolute text-white shadow-md">BEST CHANGE</p>
+          <p className=" absolute text-white">BEST CHANGE</p>
           <img className="block" src={btn02} alt="..."/>
         </button>
         <div className="flex justify-center items-right md:justify-start  col-span-3">
           <div className="flex mx-5 min-w-[19rem]">
             <p className="text-white text-xl font-medium">Buy & sell crypto:</p>
-            <img className="mx-3" src={doublecoin} alt="..."/>
+            <img className="mx-3 w-8 h-8" src={bb3d} alt="..."/>
             <p className="text-white text-xl font-medium">VISA</p>
           </div>
         </div>

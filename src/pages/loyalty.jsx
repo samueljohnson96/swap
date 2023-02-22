@@ -4,12 +4,12 @@ import { useState } from "react";
 import loop from "../../public/img/image/loop.png"
 import gradient from "../../public/img/image/gradient.png"
 import hompage1 from "../../public/img/image/homepage1.png"
-import coins from "../../public/img/image/coins.svg"
+import coins from "../../public/img/image/coins.png"
 import arrow from "../../public/img/image/arrow.svg"
 import { Swapcard } from "@/widgets/cards/swapcard";
 import { Swapcard_data } from "@/data/swapcard-data";
-import { Participate } from "@/widgets/cards/loyalty/participate-card";
-import { Participate_data } from "@/data/loyalty/participate-data";
+import { Participate } from "@/widgets/cards/participate-card";
+import { Participate_data } from "@/data/participate-data";
 export function Loyalty() {
   return (
     <div className="bg-black w-full pt-[13%] flex flex-col justify-center items-center">

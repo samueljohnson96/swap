@@ -3,7 +3,7 @@ import loop from "../../public/img/image/loop.png"
 import gradient from "../../public/img/image/gradient.png"
 import searchIcon from "../../public/img/image/searchIcon.svg"
 import dropdown_vector from "../../public/img/image/dropdown-vector.svg"
-import { FAQ_question} from "@/data/faq/faq-questions";
+import { FAQ_question} from "@/data/faq-questions";
 import { Linklist } from "@/data/linklist";
 
 export function Contact() {

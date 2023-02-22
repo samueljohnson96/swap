@@ -86,12 +86,16 @@ export default function Topbar() {
         </div>
         <div className="hidden lg:block">{navList}</div>
         <div className="flex gap-8 ">
+        <Link to = "/login">
           <button className="w-32 py-1 bg-btnbg bg-cover rounded-full  justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hidden lg:inline-block hover:brightness-125 active:brightness-100">
             <p className="text-white text-lg font-medium ">Log In</p>
           </button>
+        </Link>
+        <Link to = "/signup">
           <button className="w-32 py-1 bg-btnbg bg-cover rounded-full  justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hidden lg:inline-block hover:brightness-125 active:brightness-100">
             <p className="text-white text-lg font-medium ">Sign Up</p>
           </button>
+        </Link>
         </div>
         <IconButton
           variant="text"
@@ -135,12 +139,16 @@ export default function Topbar() {
         <div className="container px-5 z-50">
           {navList}
           <div className=" flex justify-around">
-            <button className="w-32 py-1 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
-              <p className="text-white text-xl font-medium ">Log In</p>
-            </button>
-            <button className="w-32 py-1 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
-              <p className="text-white text-xl font-medium ">Sign Up</p>
-            </button>
+            <Link to = "/login">
+              <button className="w-32 py-1 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
+                <p className="text-white text-xl font-medium ">Log In</p>
+              </button>
+            </Link>
+            <Link to = "/signup">
+              <button className="w-32 py-1 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
+                <p className="text-white text-xl font-medium ">Sign Up</p>
+              </button>
+            </Link>
           </div>
         </div>
       </MobileNav>
