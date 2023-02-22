@@ -7,7 +7,8 @@ import routes from "@/routes";
 import 'tw-elements'; 
 function App() {
   return (
-    <div className="bg-background bg-repeat-y">
+    // <div className="bg-background bg-repeat-y">
+    <div style={{backgroundImage: "url(img/image/background.png)"}}>  
       <div className="w-full absolute z-50">
         <Topbar/>
       </div>
