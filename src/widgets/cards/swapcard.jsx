@@ -2,7 +2,7 @@ import React from "react"
 import m3d from "../../../public/img/image/m3d.png"
 export const Swapcard = ({color,icon, percent,coin,type,period,limit,price,unit}) => {
     return(
-        <div className="p-4 rounded-3xl" style={{backgroundColor:(color)}}>
+        <div className="p-2 rounded-3xl" style={{backgroundColor:(color)}}>
             <div className="flex gap-2">
               <div>
                 <div className="flex justify-center items-center">

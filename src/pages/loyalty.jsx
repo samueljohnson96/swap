@@ -31,7 +31,7 @@ export function Loyalty() {
             <img className="z-50 h-[calc(20vw_+_20px)] lg-max:hidden " src={coins} alt="..."/>  
             <div className="flex flex-col gap-5 z-20">
               <p className="text-white text-3xl font-bold md:text-6xl">Reasons to Get Involved</p> 
-              <p className="text-white text-xl font-thin md:text-2xl leading-tight">You will earn cashback in SWAP for every operation made on our service. <br></br> Collect enough SWAP and upgrade your cashback subscription to receive BTC.</p> 
+              <p className="text-white text-lg font-normal md:text-xl leading-tight">You will earn cashback in SWAP for every operation made on our service. <br></br> Collect enough SWAP and upgrade your cashback subscription to receive BTC.</p> 
               <div className="flex gap-2 items-center">
                 <button className="w-36 py-1.5 bg-btnbg bg-cover rounded-full flex justify-center items-center border-4 shadow-2xl shadow-deep-purple-900  border-blue-100 outline outline-blue-900 hover:brightness-125 active:brightness-100">
                   <p className="text-white text-lg font-medium ">Join Now</p>

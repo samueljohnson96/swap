@@ -32,7 +32,7 @@ export const Swapcard_data = [
         coin:"Bitcoillionairer",
         type:"BTC cashback",
         period:"30 calendar days",
-        limit:"Unlimited cashbackP",
+        limit:"Unlimited cashback",
         price:"15,000",
         unit:"SWAP"
     },
