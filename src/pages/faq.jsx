@@ -14,9 +14,9 @@ export function FAQ() {
           <div className="z-50 left-0 md:col-span-1 gap-10 py-10 md:py-0 ">
              <p className="text-white text-6xl font-bold col-span-1 mb-5">FAQ</p>
             {FAQ_question.map((items)=>(
-              <div className="md:border-r-2 border-white h-[full] w-[80%] border-spacing-5">
+              <div className="md:border-r-2 border-gray-600 h-[full] w-[80%] border-spacing-5">
                 <a href={`#${items.id}`}>
-                  <button className="scroll-smooth text-white text-xl text-left font-['Outfit'] px-3 py-3 rounded-xl focus:translate-x-5">{items.title}</button>
+                  <button className="scroll-smooth text-white text-xl text-left font-['Outfit'] px-3 py-3 rounded-xl focus:brightness-50">{items.title}</button>
                 </a>
               </div>
             ))}
