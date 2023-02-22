@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { exchangeItem, buyItem } from "@/data/senditems";
 import Exchange from "@/widgets/cards/Crypto-Exchange";
-import homebg from "../../public/img/image/homebg.jpg"
 import coin from "../../public/img/image/coin.png"
 import arrow from "../../public/img/image/arrow.svg"
 import loop from "../../public/img/image/loop.png"
@@ -41,8 +40,8 @@ export function Home() {
               <Exchange items={tabsData[activeTabIndex].list}/>
             </div>
         </section>
-        <section  className=" relative w-full flex justify-center items-center py-10 bg-homebg">
-          <div  className="inset-0 flex justify-center items-center gap-5 z-20 py-5 px-3">
+        <section  className=" relative w-full flex justify-center items-center py-10 bg-homebg bg-opacity-30">
+          <div className="inset-0 flex justify-center items-center gap-5 z-20 py-5 px-3">
             <img className="z-50 h-[calc(20vw_+_20px)] lg-max:hidden " src={coin} alt="..."/>  
             <div className="flex flex-col gap-5 z-20">
               <p className="text-white text-3xl font-bold">1,000 SWAP to all registered customers!</p> 
