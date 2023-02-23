@@ -14,14 +14,12 @@ import logo from "../../../public/img/image/logo.jpg"
 import menuvector from '../../../public/img/image/menuvector.svg'
 export default function Topbar() {
   const [openNav, setOpenNav] = useState(false);
-
   useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
-
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
@@ -66,7 +64,6 @@ export default function Topbar() {
       </Typography>
     </ul>
   );
-
   return (
     <div className="w-full bg-transparent mx-auto  py-2 lg:px-8 lg:py-4 z-50 border-b-2 border-white border-opacity-10">
       <div className="mx-auto flex items-center justify-between text-white">

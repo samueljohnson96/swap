@@ -1,6 +1,5 @@
 import React from "react";
 import { Linklist } from "@/data/linklist";
-
 export function Contact() {
   return (
     <div className=" bg-transparent w-full pt-[13%] flex flex-col justify-center items-center py-20">
@@ -28,9 +27,9 @@ export function Contact() {
             </div>
             <div className="flex gap-4 py-5 z-50">
               {Linklist.map((item)=>(
-                  <a href={`${item.link}`}>
-                    <img className="flex justify-center hover:brightness-150 active:brightness-100" src={item.name} alt="..."/>
-                  </a>
+                <a href={`${item.link}`}>
+                  <img className="flex justify-center hover:brightness-150 active:brightness-100" src={item.name} alt="..."/>
+                </a>
               ))}
             </div>
           </div>
@@ -74,5 +73,4 @@ export function Contact() {
     </div>
   );
 }
-
 export default Contact;

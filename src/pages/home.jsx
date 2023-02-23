@@ -13,10 +13,8 @@ const tabsData = [
     list:buyItem
   },
 ];
-
 export function Home() {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
- 
   return (
     <div className=" bg-transparent w-full pt-[13%] bg-background bg-repeat-y">
       <div className="relative flex justify-center items-center flex-col w-full py-10">

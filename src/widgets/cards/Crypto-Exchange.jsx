@@ -1,6 +1,4 @@
 import React from "react";
-import btc from "../../../public/img/coin/btc.svg"
-import eth from "../../../public/img/coin/eth.svg"
 import dropdown_vector from "../../../public/img/image/dropdown-vector.svg"
 import searchIcon from "../../../public/img/image/searchIcon.svg"
 import direction from "../../../public/img/image/direction.svg"

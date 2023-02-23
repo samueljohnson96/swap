@@ -52,9 +52,9 @@ export function Footer() {
       </div>
       <div className="flex gap-4 my-16 z-50">
         {Linklist.map((item)=>(
-            <a href={`${item.link}`}>
-              <img className="flex justify-center hover:brightness-150 active:brightness-100" src={item.name} alt="..."/>
-            </a>
+          <a href={`${item.link}`}>
+            <img className="flex justify-center hover:brightness-150 active:brightness-100" src={item.name} alt="..."/>
+          </a>
         ))}
       </div>
       <div className=" relative flex items-center justify-end px-3 my-10 w-1/3 min-w-[340px] ">

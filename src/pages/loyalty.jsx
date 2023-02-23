@@ -84,7 +84,6 @@ export function Loyalty() {
                   <img src={arrow} alt="..."/>
                 </div>
               </Link>
-
             </div>
           </div> 
         </section>
