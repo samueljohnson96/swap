@@ -34,7 +34,7 @@ export function FAQ() {
                           type="button"
                           data-te-collapse-init
                           data-te-target={`#${item.id}_${items.id}`}
-                          aria-expanded="false"
+                          aria-expanded="true"
                           aria-controls={`${item.id}_${items.id}`}>
                           {item.question}
                             <span>

@@ -4,4 +4,4 @@ export * from "@/pages/loyalty";
 export * from "@/pages/faq";
 export * from "@/pages/contact";
 export * from "@/pages/login";
-export * from "@/pages/signup"; 
+export * from "@/pages/signup";

@@ -39,7 +39,7 @@ console.log("ratio",ratio);
         <div className="w-full bg-[#1A1B23] bg-opacity-80 p-2 rounded-xl md:rounded-3xl md:p-8">
           <div className=" bg-opacity-80 gap-5 flex flex-col">
             <div className="relative flex w-full justify-between items-center rounded-xl md:rounded-3xl">
-              <div className="flex bg-black bg-opacity-20 justify-between p-4 w-[65%] h-[4rem] items-center rounded-tl-xl md:rounded-l-3xl md:h-[100px]">
+              <div className="flex bg-black bg-opacity-20 justify-between p-4 w-[65%] h-[4rem] items-center rounded-tl-xl md:rounded-tl-3xl md:h-[100px]">
                 <div>
                   <p className="text-lg w-[80px] md:w-full font-medium text-white md:text-2xl">You send</p>
                 </div>
